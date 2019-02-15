@@ -1,0 +1,31 @@
+{
+  "name": "first_api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node dist/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@mysql/xdevapi": "^8.0.15",
+    "@types/sequelize": "^4.27.34",
+    "mysql2": "^1.6.4",
+    "sequelize": "^4.42.0"
+  },
+  "devDependencies": {
+    "@types/body-parser": "0.0.33",
+    "@types/debug": "0.0.29",
+    "@types/express": "^4.16.1",
+    "@types/morgan": "^1.7.32",
+    "@types/node": "^6.0.46",
+    "express": "*",
+    "body-parser": "*",
+    "install": "^0.12.2",
+    "morgan": "^1.7.0",
+    "npm": "^6.7.0",
+    "typescript": "^3.2.4"
+  }
+}
