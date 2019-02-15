@@ -1,15 +1,15 @@
-# CadAnimal API
+﻿# CadAnimal API
 
-A api CadAnimal utiliza a tecnologia node.js para criar um crud básico de Produtos.
+A api CadAnimal utiliza a tecnologia node.js para criar um crud básico de Animais
 
 A APi possui 5 endpoints que exepoem dados e efetuam operações nos dados que estão gravados no banco de dados MySql
 
 #### As rotas da API são:
-* '/', - controller.get = Obtem todos os registros de produtos cadastrados
-* '/:id' - controller.getById = Obtem um registro de produto por Id
-* '/:product' - controller.create = Cria um novo registro de produto
-* '/:id' - controller.delete = Exclui do banco um registro de produto
-* '/product' - controller.put = Atualiza um registro de produto no banco 
+* '/api/animals/', - controller.get = Obtem todos os registros de Animal cadastrados  [GET]
+* '/api/animals/:id' - controller.getById = Obtem um registro de Animal por Id	      [GET]
+* '/api/animals/' - controller.create = Cria um novo registro de Animal               [POST]
+* '/api/animals/:id' - controller.delete = Exclui do banco um registro de Animal      [DELETE]
+* '/api/animals/:id' - controller.put = Atualiza um registro de Animal no banco       [PUT]
 
 ### Tecnologias utilizadas
 * Framerk para ORM :  Sequelize

@@ -9,6 +9,9 @@ const app = express();
 const hostname = "127.0.0.1"
 const port = "3000";
 
+app.use(bodyParser.json());
+app.use(bodyParser.urlencoded({ extended: false }));
+
 app.set("port",port);
 
 app.use('/api',animalsRoute)
@@ -16,11 +19,6 @@ app.use('/api',animalsRoute)
 app.use((req,res)=>{
     res.status(404).send();            
 });
-
-app.use(bodyParser.urlencoded({
-    extended: true
-}));
-
 
 const server = http.createServer(app);
 
