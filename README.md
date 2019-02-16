@@ -17,7 +17,7 @@ A APi possui 5 endpoints que exepoem dados e efetuam operações nos dados que e
 * Linguagem : TypeScript
 * Node.Js
 
-**Para atualizar os arquivos JavaScript, ao se alterar um arquivo TypeScript, deve se rodoar na pasta raiz do projeto : node_modules/.bin/tsc**
+**Para atualizar os arquivos JavaScript, ao se alterar um arquivo TypeScript, deve se rodar na pasta raiz do projeto : node_modules/.bin/tsc**
 
 **Para rodar o projeto, basta ir na pasta dist, e rodar : node app.js**
 
